@@ -5,3 +5,4 @@ node_modules
 hubot-env.sh
 env.sh
 env
+/.project
