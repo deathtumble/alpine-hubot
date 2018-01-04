@@ -22,7 +22,7 @@ USER  hubot
 WORKDIR /hubot
 
 # Install hubot
-RUN yo hubot --owner="Ben Visser <benny@noqcks.io>" --name="dockbot" --description="Roll, roll, rollercoaster" --defaults
+RUN yo hubot --owner="Murray Tait <murray_tait@hotmail.com>" --name="higgins" --description="Have you gone irrevocably, irretrievably mad?!" --defaults
 COPY package.json package.json
 RUN npm install
 ADD hubot/hubot-scripts.json /hubot/
