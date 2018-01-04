@@ -25,7 +25,6 @@ WORKDIR /hubot
 RUN yo hubot --owner="Murray Tait <murray_tait@hotmail.com>" --name="higgins" --description="Have you gone irrevocably, irretrievably mad?!" --defaults
 COPY package.json package.json
 RUN npm install
-ADD hubot/hubot-scripts.json /hubot/
 ADD hubot/external-scripts.json /hubot/
 
 EXPOSE 80
